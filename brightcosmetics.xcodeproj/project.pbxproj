@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114EB96F8DAF0859D3EB434E /* Pods_brightcosmeticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C149456B9B37B528BB6B122D /* Pods_brightcosmeticsUITests.framework */; };
+		142F4FA978ED06DE975C5558 /* Pods_brightcosmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22FF8EB29E63ACEC63CA466 /* Pods_brightcosmetics.framework */; };
+		98D49DF920DC4A3900AD6696 /* ConfirmationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D49DF720DC4A3900AD6696 /* ConfirmationTableViewCell.swift */; };
+		98D49DFA20DC4A3900AD6696 /* ConfirmationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D49DF820DC4A3900AD6696 /* ConfirmationTableViewCell.xib */; };
+		98D49DFD20E1CE4C00AD6696 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D49DFB20E1CE4C00AD6696 /* ReceiptTableViewCell.swift */; };
+		98D49DFE20E1CE4C00AD6696 /* ReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D49DFC20E1CE4C00AD6696 /* ReceiptTableViewCell.xib */; };
+		98D5950320D03EFA008E5434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5950220D03EFA008E5434 /* AppDelegate.swift */; };
+		98D5950520D03EFA008E5434 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5950420D03EFA008E5434 /* HomeViewController.swift */; };
+		98D5950820D03EFA008E5434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D5950620D03EFA008E5434 /* Main.storyboard */; };
+		98D5950A20D03EFC008E5434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D5950920D03EFC008E5434 /* Assets.xcassets */; };
+		98D5950D20D03EFC008E5434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D5950B20D03EFC008E5434 /* LaunchScreen.storyboard */; };
+		98D5951820D03EFC008E5434 /* brightcosmeticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5951720D03EFC008E5434 /* brightcosmeticsTests.swift */; };
+		98D5952320D03EFC008E5434 /* brightcosmeticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5952220D03EFC008E5434 /* brightcosmeticsUITests.swift */; };
+		98D5953120D049D7008E5434 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5953020D049D7008E5434 /* CatalogViewController.swift */; };
+		98D5953320D04B25008E5434 /* CollectionCatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5953220D04B25008E5434 /* CollectionCatalogViewCell.swift */; };
+		98E8A1B820D04E91006C7081 /* MoltinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1B720D04E91006C7081 /* MoltinManager.swift */; };
+		98E8A1BA20D44D87006C7081 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1B920D44D87006C7081 /* UIImageView.swift */; };
+		98E8A1C320D8275F006C7081 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1C220D8275F006C7081 /* Colors.swift */; };
+		98E8A1C520D82B81006C7081 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1C420D82B81006C7081 /* ProductListViewController.swift */; };
+		98E8A1C720D831AD006C7081 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1C620D831AD006C7081 /* ProductDetailViewController.swift */; };
+		98E8A1ED20D8364C006C7081 /* CheckoutFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E8A1EC20D8364C006C7081 /* CheckoutFlow.storyboard */; };
+		98E8A1F020D8376E006C7081 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1EF20D8376E006C7081 /* CartViewController.swift */; };
+		98E8A1F220D83836006C7081 /* CheckoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1F120D83836006C7081 /* CheckoutDetailViewController.swift */; };
+		98E8A1F420D838AB006C7081 /* CheckoutPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1F320D838AB006C7081 /* CheckoutPaymentViewController.swift */; };
+		98E8A1F620D8395E006C7081 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1F520D8395E006C7081 /* ReceiptViewController.swift */; };
+		98E8A1F820D83F30006C7081 /* CheckoutConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1F720D83F30006C7081 /* CheckoutConfirmationViewController.swift */; };
+		98E8A1FB20D84123006C7081 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1F920D84123006C7081 /* CartTableViewCell.swift */; };
+		98E8A1FC20D84123006C7081 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98E8A1FA20D84123006C7081 /* CartTableViewCell.xib */; };
+		98E8A1FE20D8535C006C7081 /* ProductCatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8A1FD20D8535C006C7081 /* ProductCatalogViewCell.swift */; };
+		B80604834984C2A94F598575 /* Pods_brightcosmeticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB29369D440C257DBD30D8 /* Pods_brightcosmeticsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D5951420D03EFC008E5434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D594F720D03EFA008E5434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D594FE20D03EFA008E5434;
+			remoteInfo = brightcosmetics;
+		};
+		98D5951F20D03EFC008E5434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D594F720D03EFA008E5434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D594FE20D03EFA008E5434;
+			remoteInfo = brightcosmetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31FA7F774ED829159270A475 /* Pods-brightcosmeticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsTests/Pods-brightcosmeticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EC37DEC0C8F3DB04071ABF /* Pods-brightcosmeticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsTests/Pods-brightcosmeticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C9B5249F14FDEAB15FD26C7 /* Pods-brightcosmeticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsUITests/Pods-brightcosmeticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98D49DF720DC4A3900AD6696 /* ConfirmationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationTableViewCell.swift; sourceTree = "<group>"; };
+		98D49DF820DC4A3900AD6696 /* ConfirmationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmationTableViewCell.xib; sourceTree = "<group>"; };
+		98D49DFB20E1CE4C00AD6696 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
+		98D49DFC20E1CE4C00AD6696 /* ReceiptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptTableViewCell.xib; sourceTree = "<group>"; };
+		98D594FF20D03EFA008E5434 /* brightcosmetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brightcosmetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D5950220D03EFA008E5434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98D5950420D03EFA008E5434 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98D5950720D03EFA008E5434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D5950920D03EFC008E5434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D5950C20D03EFC008E5434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98D5950E20D03EFC008E5434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D5951320D03EFC008E5434 /* brightcosmeticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brightcosmeticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D5951720D03EFC008E5434 /* brightcosmeticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brightcosmeticsTests.swift; sourceTree = "<group>"; };
+		98D5951920D03EFC008E5434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D5951E20D03EFC008E5434 /* brightcosmeticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brightcosmeticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D5952220D03EFC008E5434 /* brightcosmeticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brightcosmeticsUITests.swift; sourceTree = "<group>"; };
+		98D5952420D03EFC008E5434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D5953020D049D7008E5434 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		98D5953220D04B25008E5434 /* CollectionCatalogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCatalogViewCell.swift; sourceTree = "<group>"; };
+		98E8A1B720D04E91006C7081 /* MoltinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoltinManager.swift; sourceTree = "<group>"; };
+		98E8A1B920D44D87006C7081 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		98E8A1C220D8275F006C7081 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		98E8A1C420D82B81006C7081 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		98E8A1C620D831AD006C7081 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		98E8A1EC20D8364C006C7081 /* CheckoutFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckoutFlow.storyboard; sourceTree = "<group>"; };
+		98E8A1EF20D8376E006C7081 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		98E8A1F120D83836006C7081 /* CheckoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutDetailViewController.swift; sourceTree = "<group>"; };
+		98E8A1F320D838AB006C7081 /* CheckoutPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentViewController.swift; sourceTree = "<group>"; };
+		98E8A1F520D8395E006C7081 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		98E8A1F720D83F30006C7081 /* CheckoutConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutConfirmationViewController.swift; sourceTree = "<group>"; };
+		98E8A1F920D84123006C7081 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		98E8A1FA20D84123006C7081 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		98E8A1FD20D8535C006C7081 /* ProductCatalogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCatalogViewCell.swift; sourceTree = "<group>"; };
+		A8FB29369D440C257DBD30D8 /* Pods_brightcosmeticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brightcosmeticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C120F649B56A306113615D7E /* Pods-brightcosmetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmetics.release.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmetics/Pods-brightcosmetics.release.xcconfig"; sourceTree = "<group>"; };
+		C149456B9B37B528BB6B122D /* Pods_brightcosmeticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brightcosmeticsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22FF8EB29E63ACEC63CA466 /* Pods_brightcosmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brightcosmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D378D89F45B1FC9BD0636A9F /* Pods-brightcosmeticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsUITests/Pods-brightcosmeticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D4AB1B9BAF498E7C6902FD /* Pods-brightcosmetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmetics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmetics/Pods-brightcosmetics.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D594FC20D03EFA008E5434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142F4FA978ED06DE975C5558 /* Pods_brightcosmetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5951020D03EFC008E5434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80604834984C2A94F598575 /* Pods_brightcosmeticsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5951B20D03EFC008E5434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114EB96F8DAF0859D3EB434E /* Pods_brightcosmeticsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4721478822F0DBA59EE06983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22FF8EB29E63ACEC63CA466 /* Pods_brightcosmetics.framework */,
+				A8FB29369D440C257DBD30D8 /* Pods_brightcosmeticsTests.framework */,
+				C149456B9B37B528BB6B122D /* Pods_brightcosmeticsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D594F620D03EFA008E5434 = {
+			isa = PBXGroup;
+			children = (
+				98D5950120D03EFA008E5434 /* brightcosmetics */,
+				98D5951620D03EFC008E5434 /* brightcosmeticsTests */,
+				98D5952120D03EFC008E5434 /* brightcosmeticsUITests */,
+				98D5950020D03EFA008E5434 /* Products */,
+				B1A13254FB27757F92E3D726 /* Pods */,
+				4721478822F0DBA59EE06983 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98D5950020D03EFA008E5434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D594FF20D03EFA008E5434 /* brightcosmetics.app */,
+				98D5951320D03EFC008E5434 /* brightcosmeticsTests.xctest */,
+				98D5951E20D03EFC008E5434 /* brightcosmeticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D5950120D03EFA008E5434 /* brightcosmetics */ = {
+			isa = PBXGroup;
+			children = (
+				98D5950220D03EFA008E5434 /* AppDelegate.swift */,
+				98D5950420D03EFA008E5434 /* HomeViewController.swift */,
+				98D5953020D049D7008E5434 /* CatalogViewController.swift */,
+				98E8A1C420D82B81006C7081 /* ProductListViewController.swift */,
+				98E8A1C620D831AD006C7081 /* ProductDetailViewController.swift */,
+				98D5953220D04B25008E5434 /* CollectionCatalogViewCell.swift */,
+				98E8A1FD20D8535C006C7081 /* ProductCatalogViewCell.swift */,
+				98E8A1C220D8275F006C7081 /* Colors.swift */,
+				98D5950620D03EFA008E5434 /* Main.storyboard */,
+				98E8A1EE20D83755006C7081 /* CheckoutFlow */,
+				98E8A1B720D04E91006C7081 /* MoltinManager.swift */,
+				98D5950920D03EFC008E5434 /* Assets.xcassets */,
+				98D5950B20D03EFC008E5434 /* LaunchScreen.storyboard */,
+				98D5950E20D03EFC008E5434 /* Info.plist */,
+				98E8A1B920D44D87006C7081 /* UIImageView.swift */,
+			);
+			path = brightcosmetics;
+			sourceTree = "<group>";
+		};
+		98D5951620D03EFC008E5434 /* brightcosmeticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D5951720D03EFC008E5434 /* brightcosmeticsTests.swift */,
+				98D5951920D03EFC008E5434 /* Info.plist */,
+			);
+			path = brightcosmeticsTests;
+			sourceTree = "<group>";
+		};
+		98D5952120D03EFC008E5434 /* brightcosmeticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D5952220D03EFC008E5434 /* brightcosmeticsUITests.swift */,
+				98D5952420D03EFC008E5434 /* Info.plist */,
+			);
+			path = brightcosmeticsUITests;
+			sourceTree = "<group>";
+		};
+		98E8A1EE20D83755006C7081 /* CheckoutFlow */ = {
+			isa = PBXGroup;
+			children = (
+				98E8A1EC20D8364C006C7081 /* CheckoutFlow.storyboard */,
+				98E8A1EF20D8376E006C7081 /* CartViewController.swift */,
+				98E8A1F120D83836006C7081 /* CheckoutDetailViewController.swift */,
+				98E8A1F320D838AB006C7081 /* CheckoutPaymentViewController.swift */,
+				98E8A1F720D83F30006C7081 /* CheckoutConfirmationViewController.swift */,
+				98E8A1F520D8395E006C7081 /* ReceiptViewController.swift */,
+				98D49DFB20E1CE4C00AD6696 /* ReceiptTableViewCell.swift */,
+				98D49DFC20E1CE4C00AD6696 /* ReceiptTableViewCell.xib */,
+				98D49DF720DC4A3900AD6696 /* ConfirmationTableViewCell.swift */,
+				98D49DF820DC4A3900AD6696 /* ConfirmationTableViewCell.xib */,
+				98E8A1F920D84123006C7081 /* CartTableViewCell.swift */,
+				98E8A1FA20D84123006C7081 /* CartTableViewCell.xib */,
+			);
+			path = CheckoutFlow;
+			sourceTree = "<group>";
+		};
+		B1A13254FB27757F92E3D726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3D4AB1B9BAF498E7C6902FD /* Pods-brightcosmetics.debug.xcconfig */,
+				C120F649B56A306113615D7E /* Pods-brightcosmetics.release.xcconfig */,
+				31FA7F774ED829159270A475 /* Pods-brightcosmeticsTests.debug.xcconfig */,
+				50EC37DEC0C8F3DB04071ABF /* Pods-brightcosmeticsTests.release.xcconfig */,
+				D378D89F45B1FC9BD0636A9F /* Pods-brightcosmeticsUITests.debug.xcconfig */,
+				6C9B5249F14FDEAB15FD26C7 /* Pods-brightcosmeticsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D594FE20D03EFA008E5434 /* brightcosmetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D5952720D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmetics" */;
+			buildPhases = (
+				A85F9B27EEB0FB7B2A7013D6 /* [CP] Check Pods Manifest.lock */,
+				98D594FB20D03EFA008E5434 /* Sources */,
+				98D594FC20D03EFA008E5434 /* Frameworks */,
+				98D594FD20D03EFA008E5434 /* Resources */,
+				783169833DFE14FF349C1F47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brightcosmetics;
+			productName = brightcosmetics;
+			productReference = 98D594FF20D03EFA008E5434 /* brightcosmetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D5951220D03EFC008E5434 /* brightcosmeticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D5952A20D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmeticsTests" */;
+			buildPhases = (
+				9DE4587DBBE751B7457BBC39 /* [CP] Check Pods Manifest.lock */,
+				98D5950F20D03EFC008E5434 /* Sources */,
+				98D5951020D03EFC008E5434 /* Frameworks */,
+				98D5951120D03EFC008E5434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D5951520D03EFC008E5434 /* PBXTargetDependency */,
+			);
+			name = brightcosmeticsTests;
+			productName = brightcosmeticsTests;
+			productReference = 98D5951320D03EFC008E5434 /* brightcosmeticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D5951D20D03EFC008E5434 /* brightcosmeticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D5952D20D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmeticsUITests" */;
+			buildPhases = (
+				7575D078F6DAC21BE0D9C389 /* [CP] Check Pods Manifest.lock */,
+				98D5951A20D03EFC008E5434 /* Sources */,
+				98D5951B20D03EFC008E5434 /* Frameworks */,
+				98D5951C20D03EFC008E5434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D5952020D03EFC008E5434 /* PBXTargetDependency */,
+			);
+			name = brightcosmeticsUITests;
+			productName = brightcosmeticsUITests;
+			productReference = 98D5951E20D03EFC008E5434 /* brightcosmeticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D594F720D03EFA008E5434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "George FitzGibbons";
+				TargetAttributes = {
+					98D594FE20D03EFA008E5434 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					98D5951220D03EFC008E5434 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 98D594FE20D03EFA008E5434;
+					};
+					98D5951D20D03EFC008E5434 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 98D594FE20D03EFA008E5434;
+					};
+				};
+			};
+			buildConfigurationList = 98D594FA20D03EFA008E5434 /* Build configuration list for PBXProject "brightcosmetics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D594F620D03EFA008E5434;
+			productRefGroup = 98D5950020D03EFA008E5434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D594FE20D03EFA008E5434 /* brightcosmetics */,
+				98D5951220D03EFC008E5434 /* brightcosmeticsTests */,
+				98D5951D20D03EFC008E5434 /* brightcosmeticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D594FD20D03EFA008E5434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E8A1FC20D84123006C7081 /* CartTableViewCell.xib in Resources */,
+				98D49DFE20E1CE4C00AD6696 /* ReceiptTableViewCell.xib in Resources */,
+				98E8A1ED20D8364C006C7081 /* CheckoutFlow.storyboard in Resources */,
+				98D5950D20D03EFC008E5434 /* LaunchScreen.storyboard in Resources */,
+				98D5950A20D03EFC008E5434 /* Assets.xcassets in Resources */,
+				98D49DFA20DC4A3900AD6696 /* ConfirmationTableViewCell.xib in Resources */,
+				98D5950820D03EFA008E5434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5951120D03EFC008E5434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5951C20D03EFC008E5434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7575D078F6DAC21BE0D9C389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brightcosmeticsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783169833DFE14FF349C1F47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-brightcosmetics/Pods-brightcosmetics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moltin/moltin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moltin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brightcosmetics/Pods-brightcosmetics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE4587DBBE751B7457BBC39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brightcosmeticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85F9B27EEB0FB7B2A7013D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brightcosmetics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D594FB20D03EFA008E5434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D49DFD20E1CE4C00AD6696 /* ReceiptTableViewCell.swift in Sources */,
+				98D5953320D04B25008E5434 /* CollectionCatalogViewCell.swift in Sources */,
+				98E8A1F620D8395E006C7081 /* ReceiptViewController.swift in Sources */,
+				98D5953120D049D7008E5434 /* CatalogViewController.swift in Sources */,
+				98E8A1F020D8376E006C7081 /* CartViewController.swift in Sources */,
+				98E8A1C720D831AD006C7081 /* ProductDetailViewController.swift in Sources */,
+				98E8A1C320D8275F006C7081 /* Colors.swift in Sources */,
+				98D5950520D03EFA008E5434 /* HomeViewController.swift in Sources */,
+				98E8A1B820D04E91006C7081 /* MoltinManager.swift in Sources */,
+				98E8A1F220D83836006C7081 /* CheckoutDetailViewController.swift in Sources */,
+				98E8A1F820D83F30006C7081 /* CheckoutConfirmationViewController.swift in Sources */,
+				98E8A1BA20D44D87006C7081 /* UIImageView.swift in Sources */,
+				98E8A1F420D838AB006C7081 /* CheckoutPaymentViewController.swift in Sources */,
+				98E8A1FB20D84123006C7081 /* CartTableViewCell.swift in Sources */,
+				98D49DF920DC4A3900AD6696 /* ConfirmationTableViewCell.swift in Sources */,
+				98E8A1C520D82B81006C7081 /* ProductListViewController.swift in Sources */,
+				98E8A1FE20D8535C006C7081 /* ProductCatalogViewCell.swift in Sources */,
+				98D5950320D03EFA008E5434 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5950F20D03EFC008E5434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D5951820D03EFC008E5434 /* brightcosmeticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D5951A20D03EFC008E5434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D5952320D03EFC008E5434 /* brightcosmeticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D5951520D03EFC008E5434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D594FE20D03EFA008E5434 /* brightcosmetics */;
+			targetProxy = 98D5951420D03EFC008E5434 /* PBXContainerItemProxy */;
+		};
+		98D5952020D03EFC008E5434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D594FE20D03EFA008E5434 /* brightcosmetics */;
+			targetProxy = 98D5951F20D03EFC008E5434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D5950620D03EFA008E5434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D5950720D03EFA008E5434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98D5950B20D03EFC008E5434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D5950C20D03EFC008E5434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D5952520D03EFC008E5434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98D5952620D03EFC008E5434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D5952820D03EFC008E5434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D4AB1B9BAF498E7C6902FD /* Pods-brightcosmetics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D5952920D03EFC008E5434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C120F649B56A306113615D7E /* Pods-brightcosmetics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98D5952B20D03EFC008E5434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FA7F774ED829159270A475 /* Pods-brightcosmeticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmeticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brightcosmetics.app/brightcosmetics";
+			};
+			name = Debug;
+		};
+		98D5952C20D03EFC008E5434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50EC37DEC0C8F3DB04071ABF /* Pods-brightcosmeticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmeticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brightcosmetics.app/brightcosmetics";
+			};
+			name = Release;
+		};
+		98D5952E20D03EFC008E5434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D378D89F45B1FC9BD0636A9F /* Pods-brightcosmeticsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmeticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmeticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brightcosmetics;
+			};
+			name = Debug;
+		};
+		98D5952F20D03EFC008E5434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9B5249F14FDEAB15FD26C7 /* Pods-brightcosmeticsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = brightcosmeticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moltin.brightcosmeticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brightcosmetics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D594FA20D03EFA008E5434 /* Build configuration list for PBXProject "brightcosmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D5952520D03EFC008E5434 /* Debug */,
+				98D5952620D03EFC008E5434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D5952720D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D5952820D03EFC008E5434 /* Debug */,
+				98D5952920D03EFC008E5434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D5952A20D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmeticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D5952B20D03EFC008E5434 /* Debug */,
+				98D5952C20D03EFC008E5434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D5952D20D03EFC008E5434 /* Build configuration list for PBXNativeTarget "brightcosmeticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D5952E20D03EFC008E5434 /* Debug */,
+				98D5952F20D03EFC008E5434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D594F720D03EFA008E5434 /* Project object */;
+}
