@@ -9,6 +9,7 @@
 import Foundation
 import moltin
 
+
 class MoltinManager : NSObject {
     
     let moltin: Moltin = Moltin(withClientID: AppDelegate.moltinId)
@@ -177,10 +178,21 @@ class MoltinManager : NSObject {
     
     //MARK: Customer
     public func createCustomer(userName: String, userEmail: String) {
+        var token: String = ""
+         struct moltinToken: Codable {
+            var clientID: String
+            var token: String
+            var expires: Date
+        
+        }
+        if let data = UserDefaults.standard.value(forKey: "Moltin.auth.credentials") as? Data {
+            let credentials = try? JSONDecoder().decode(moltinToken.self, from: data)
+            token = credentials?.token ?? ""
+        }
         let headers = [
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "Authorization": "Bearer \(self.moltin.config.clientID)"
+            "Authorization": "Bearer \(token)"
         ]
         let user = ["data": [
             "type": "customer",

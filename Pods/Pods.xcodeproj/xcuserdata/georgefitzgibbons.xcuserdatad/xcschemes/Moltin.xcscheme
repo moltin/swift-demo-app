@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D626E8D1C81E896FC471BA4C0718ED4"
+               BlueprintIdentifier = "5EC093281A3454DF595F93BC1A7C79FF"
                BuildableName = "moltin.framework"
                BlueprintName = "Moltin"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D626E8D1C81E896FC471BA4C0718ED4"
+            BlueprintIdentifier = "5EC093281A3454DF595F93BC1A7C79FF"
             BuildableName = "moltin.framework"
             BlueprintName = "Moltin"
             ReferencedContainer = "container:Pods.xcodeproj">

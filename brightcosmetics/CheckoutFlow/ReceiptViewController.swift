@@ -25,7 +25,7 @@ class ReceiptViewController: UIViewController {
             let productIds = self.cartItems.map({ $0.productId })
             
             for id in productIds {
-                MoltinManager.instance().getProductById(productId: id) { (product) -> (Void) in
+                MoltinManager.instance().getProductById(productId: id ?? "") { (product) -> (Void) in
                     let productItem = product
                     self.productsInCart.insert(productItem!, at: self.productsInCart.endIndex)
                     self.tableView.reloadData()

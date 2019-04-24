@@ -7,53 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0127314618EA69BE4A4AE70813EAEE60 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEF9B66D01D613FC4B4BF69D166DA9 /* Cart.swift */; };
-		095C33237E9722B186FE96605DBA6EB3 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29986499F6FF7A17D26C551EA6F86C78 /* Currency.swift */; };
-		09A605ADD882C0735C5FC259FA8A070D /* FlowRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A0D8BE157266D2C9BF09EF116845F /* FlowRequest.swift */; };
-		0DC8E7CD859215BF843BD05F54C45329 /* Moltin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4525100D17DA4C68A0562E0929277927 /* Moltin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C33B500623F2ADA46DD6951675159C /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFA28A17640E6703899DBFFB188F47 /* HTTP.swift */; };
+		013B08E352F261980B0501FC24ABE404 /* Info-tvOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */; };
+		08BDD7F2EB0F0DE280B2D9DC9E2AAAD1 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */; };
+		14842F6F97EB117C91764496450A95E3 /* CartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */; };
 		150784D107517228D0BBB23010016E39 /* Pods-brightcosmeticsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117600BDC15AA9738B27EF115AC83551 /* Pods-brightcosmeticsTests-dummy.m */; };
-		17EE83941FCAC0C4C1BF6FFFC5718B2C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D61B02423B6FD6B3F3B4E088FAB95E /* Address.swift */; };
-		1C40D9624FA2AE59F39D36942AC23670 /* Info-watchOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = B4FB5F3881CDC46B7267AA289A70E44E /* Info-watchOS.plist */; };
 		24A31A849D776F2C66F5BCBA9860E332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		27B37A2ECD215F450B2CFD752DB236F8 /* CartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5574964710FD0C211B977AFCB96CD9 /* CartRequest.swift */; };
-		2A76413739DB52C113D80396D8E4DAE8 /* CodableExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D806B4387DE25FDC701DDAAD4F8CA4D3 /* CodableExtract.swift */; };
+		2CDA5CAEC5331DDDF94AE56C48357896 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */; };
 		3971D9837FA4E642DC65E677E5C8B609 /* Pods-brightcosmeticsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162643F0326158156BC7EDABA9E08E80 /* Pods-brightcosmeticsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BBC2DFB122E4AD8AACB7A9299D34A1F /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15ADE320F0F8AD60DCED339F672867D /* Prices.swift */; };
-		43B5F89463F819C4E9395DFE9CE98632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4A5F19BC460B78A2C59649B496096A85 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FBFEB0B58D36C7EA4D8B1E3C81D74F /* Order.swift */; };
-		4E16AC76BA8B40FE434371FD01E787B2 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DA3B836262D574171AF0D629A9427 /* Collection.swift */; };
+		4CC555ADEF956FF10D2F337374193F8C /* Info-watchOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */; };
 		4F9C93AF08BE4F501F1661CD53F2B22F /* Pods-brightcosmetics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A42ECEDBEAED88666D5CAA04E8632006 /* Pods-brightcosmetics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5659F2B11E34425AF1DA8E5D8C0DDFE9 /* Moltin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB6D939D73A741D55B1E9065E3697F /* Moltin.swift */; };
-		5C0D946DC7EB63719DDE192D1E5D0653 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32BB66E3204FC1E5E4631D73F2A2E6 /* Pagination.swift */; };
-		6456B6EDDA1D0B413739D85EFF130A28 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69367C8BCE1165FEB67DFC7D5ED2B99 /* PaymentMethod.swift */; };
-		70C970C744C6B4E89B85A51A6EC4CA1D /* MoltinAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02120B404A7B0DCB80C893BFB07CE0 /* MoltinAuth.swift */; };
-		83A06D42A808845B0DBD66A4B3D163A3 /* Moltin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288DB33D8AA1590859A889310D97373 /* Moltin-dummy.m */; };
-		8561FDD70C079CE1BA3BB3C1F5C4977F /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FF7890225A4CB7EE18E515B058C749 /* Parser.swift */; };
-		85D3DDE07656952327DADB0866995052 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D88CE84BF4C1B960F70AC8E427BB8 /* Product.swift */; };
-		89CA18B9F84F96970D4EFFEEBEAEFBB2 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21C4BA707157E1FC6EB3D09A29FA77 /* Requests.swift */; };
-		8C75E749E5F0DC2A903E638D2A9D2978 /* Info-tvOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = DCDA24100F6E65210F3065FDBDFEA2D3 /* Info-tvOS.plist */; };
+		4FF43D377C86138B6DD3AEB407E79F3C /* Moltin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616E45882A0C45338E7D343F79E6394D /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */; };
+		6F12C076E10D5A8DADEB1391F0196B55 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */; };
+		6FFFE275235DC393CA90FB9D1544E2E2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */; };
+		70A7205626B6BDB6E73C29E8655A5626 /* DataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */; };
+		74BD7D46B2A165A1FCF819E18AEF466E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */; };
+		7C0A3897E9B07D9960E57B51116BEDCE /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */; };
+		7F70BEEB3910570860C20AEB4D66AB18 /* Info-iOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */; };
+		832AE336889F4F9A12262497B2227845 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E679618E2C169AA06866F951C0B01D /* Brand.swift */; };
+		83CD91CEB12B4C2E7DC0290A1ACF488E /* CodableExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */; };
+		859BF4E90A58EAC011C866043DFBDFA6 /* CustomerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */; };
+		89ACB80AAC9B2CFB31196B15C8550CEB /* moltin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD827B9D5261092624CA60718768355 /* moltin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E915D82E47789755BA8641E1E4791B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F790F7C89273C8C3286A5198F4572 /* File.swift */; };
+		933DE7C3913A043F7344F20EBBB074F3 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */; };
+		97210420AD5CB7FA7EEC91D8122AA510 /* FlowRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */; };
+		973D3377DF1B99983B40DB848C8B1D49 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021113F865D9F54AABECA9B027F80B49 /* Flow.swift */; };
+		99B2F7FD8D487DD7B405E871D7FC9EE4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */; };
+		9B59DD1ABA7971E5E545B1C316078746 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */; };
 		9D1585FB769BA52097807B68E2E83D6A /* Pods-brightcosmeticsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20464EE6D9C6483ACA8CAE027DA2C4F1 /* Pods-brightcosmeticsUITests-dummy.m */; };
-		9DEC9FBF0611E61841474C9FC8A78525 /* Info-iOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = 58EF2EBEFBE33360C13F6ECA99FD6539 /* Info-iOS.plist */; };
-		A21CCDB9BDFD39DAAFDF8E39804D5BF6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729895299A36550512B379BA802111F8 /* Customer.swift */; };
-		A7E8EC1E4ACEFA73F85820445DEFB0FC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BD7FBE59026A544324D39721406FA /* File.swift */; };
+		9D720212B32EFF920224948604D92475 /* Moltin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */; };
 		AAA5E501E36037FA29DD25B2C47CDC52 /* Pods-brightcosmeticsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4BFE9C64CE9172B689E7F1DC9A9730 /* Pods-brightcosmeticsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3A577430E7E0DED105478585B228987 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D841C1D232408998BFC937E0F63F41F /* Query.swift */; };
 		B4AD7C550744BE1F3DF7E250E0737567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B75F9693EF11828419D5C92CDE07865A /* MoltinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5D0ECEFAB5AB31A51CE53E65A1EBF /* MoltinRequest.swift */; };
-		B96C12C910DE22C478D8269ABE4CBF3A /* Timestamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4094934DD1AEBCECE0998834087A2 /* Timestamps.swift */; };
-		BA2B8AA3B83D2F82657AF7E7F25757A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DCD6FCA0E0CE86B19B45EEAF55FFA7 /* Error.swift */; };
-		BB8FEDE3023819DA0E8BC5E41F42D2D2 /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12DF3335DBC5FD8FFEDA7B3278C7F0 /* Relationship.swift */; };
-		BC9CC21218756FC1ED8EBE596FEB11A2 /* DataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D83599483A6EC0390CB52B8F6524D8 /* DataSerializer.swift */; };
-		BCDD8C4FE74D1740ED73366190DC18DE /* moltin.h in Headers */ = {isa = PBXBuildFile; fileRef = C47D29D72B569C4F9E52B9348E2CB8C6 /* moltin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD229A1BABF08C897BE1CF044E113681 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D847C8AC286ACB19DC0F7F03605FD /* Config.swift */; };
-		C13C71BC717273A2AE31D9C4C4D1FB6E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726E8E899165F1BDAEB98AA15EACE67 /* DateFormatter.swift */; };
+		C0181C551B0B6C8345648E7894C8D891 /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */; };
+		C19628DD8DF9C3E3D64145423556C883 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */; };
+		C60A5D25162C905338AE36B30EAA1732 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */; };
+		C6F753E4E8CE0111EF725B502591BDAC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */; };
 		CC852BA5C8C10BD9070B0F47D61A9610 /* Pods-brightcosmetics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B9C1FC306F31868F563D28EB9996E7 /* Pods-brightcosmetics-dummy.m */; };
 		D42B250A2C02AC7C21C6939DEFD2368C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E0746EC384626077A3B7D323133283C4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA696641B19CD74E348BC13EDF50466 /* Brand.swift */; };
-		E2AB0DB9D9309D25969A8E87199B8AC0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DA37B7E23C565AB1E2152E06DD473 /* Category.swift */; };
-		E9BF4072DF79E583B3C3EC9929D0BF62 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8BBE5E3B1FD6D47485F1497717062F /* URLSession.swift */; };
-		F9FD9FC6964677A7F57D5462805EEA22 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D66C7CC0C44A58BDD9C27A373DBE0 /* Flow.swift */; };
+		D5B48AD59B506E7060AA9EF27C2556DA /* Moltin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885700237F78570351C6E53D3F5AD60E /* Moltin.swift */; };
+		D6ECF500C3C90D0B333A0B0CCB262A6E /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */; };
+		D94FB6F8478D259B604E0EA2783FFE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DEED68F63E46F9368512B04B44BE7381 /* Timestamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5835103A381396A9F72A95B086D2166E /* Timestamps.swift */; };
+		E02B1A745DCF49425C30181881D0FF30 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */; };
+		E6A2D57E8D29E4A5739D1599D5701873 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */; };
+		E7BE24A1AF39EF56989F6E81D44F3942 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */; };
+		EAF16B0F504F871FB0CF77749A5CAE93 /* MoltinAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */; };
+		EFD51A210AEED8D9AB57A13BC24BBFDF /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */; };
+		FA332E24E126D40B89C6DE490EDEE025 /* MoltinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */; };
+		FBE7CB5E7B749A78F77843FD4B6208AE /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +69,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D626E8D1C81E896FC471BA4C0718ED4;
+			remoteGlobalIDString = 5EC093281A3454DF595F93BC1A7C79FF;
 			remoteInfo = Moltin;
 		};
 		D35D4B309076D2DCE785907E31DD688E /* PBXContainerItemProxy */ = {
@@ -81,83 +82,84 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021113F865D9F54AABECA9B027F80B49 /* Flow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flow.swift; path = Sources/SDK/Models/Flow.swift; sourceTree = "<group>"; };
 		02208629EB097327AA2B01AED87E56E5 /* Pods-brightcosmeticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmeticsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0A19337B0E2291DD938078168E2CC8B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C21C4BA707157E1FC6EB3D09A29FA77 /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = Sources/SDK/Requests/Requests.swift; sourceTree = "<group>"; };
-		0CA696641B19CD74E348BC13EDF50466 /* Brand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = Sources/SDK/Models/Brand.swift; sourceTree = "<group>"; };
+		0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtract.swift; path = Sources/SDK/Utils/CodableExtract.swift; sourceTree = "<group>"; };
+		0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinRequest.swift; path = Sources/SDK/Requests/MoltinRequest.swift; sourceTree = "<group>"; };
+		0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Sources/SDK/Models/Product.swift; sourceTree = "<group>"; };
 		117600BDC15AA9738B27EF115AC83551 /* Pods-brightcosmeticsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-brightcosmeticsTests-dummy.m"; sourceTree = "<group>"; };
-		12CEF9B66D01D613FC4B4BF69D166DA9 /* Cart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = Sources/SDK/Models/Cart.swift; sourceTree = "<group>"; };
 		162643F0326158156BC7EDABA9E08E80 /* Pods-brightcosmeticsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-brightcosmeticsUITests-umbrella.h"; sourceTree = "<group>"; };
-		179DA37B7E23C565AB1E2152E06DD473 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Sources/SDK/Models/Category.swift; sourceTree = "<group>"; };
-		1B0D88CE84BF4C1B960F70AC8E427BB8 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Sources/SDK/Models/Product.swift; sourceTree = "<group>"; };
-		1D12DF3335DBC5FD8FFEDA7B3278C7F0 /* Relationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationship.swift; path = Sources/SDK/Models/Relationship.swift; sourceTree = "<group>"; };
+		18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/SDK/Utils/Config.swift; sourceTree = "<group>"; };
+		1AD827B9D5261092624CA60718768355 /* moltin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = moltin.h; path = Sources/moltin.h; sourceTree = "<group>"; };
 		1D4B164FF6AF9B647451DED64AB91F39 /* Pods-brightcosmeticsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmeticsTests-resources.sh"; sourceTree = "<group>"; };
-		1D841C1D232408998BFC937E0F63F41F /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SDK/Utils/Query.swift; sourceTree = "<group>"; };
 		1F08289A4259596AA4142F140D997BC8 /* Pods-brightcosmeticsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-brightcosmeticsUITests.modulemap"; sourceTree = "<group>"; };
 		1F3C8F973C257891985D0FA2E4E9919F /* moltin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = moltin.framework; path = Moltin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F4DA3B836262D574171AF0D629A9427 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Sources/SDK/Models/Collection.swift; sourceTree = "<group>"; };
-		1FD86CA5932141BD437546B02E04B055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20464EE6D9C6483ACA8CAE027DA2C4F1 /* Pods-brightcosmeticsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-brightcosmeticsUITests-dummy.m"; sourceTree = "<group>"; };
-		21150F000D2ED8C390553DE0F4B3B770 /* Moltin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moltin.xcconfig; sourceTree = "<group>"; };
-		2288DB33D8AA1590859A889310D97373 /* Moltin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moltin-dummy.m"; sourceTree = "<group>"; };
-		22D83599483A6EC0390CB52B8F6524D8 /* DataSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSerializer.swift; path = Sources/SDK/Utils/DataSerializer.swift; sourceTree = "<group>"; };
-		29986499F6FF7A17D26C551EA6F86C78 /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sources/SDK/Models/Currency.swift; sourceTree = "<group>"; };
-		305A0D8BE157266D2C9BF09EF116845F /* FlowRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowRequest.swift; path = Sources/SDK/Requests/FlowRequest.swift; sourceTree = "<group>"; };
-		30F4094934DD1AEBCECE0998834087A2 /* Timestamps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timestamps.swift; path = Sources/SDK/Models/Timestamps.swift; sourceTree = "<group>"; };
-		3FDFA28A17640E6703899DBFFB188F47 /* HTTP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTP.swift; path = Sources/SDK/Utils/HTTP.swift; sourceTree = "<group>"; };
-		4525100D17DA4C68A0562E0929277927 /* Moltin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-umbrella.h"; sourceTree = "<group>"; };
+		24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Sources/SDK/Models/Order.swift; sourceTree = "<group>"; };
+		2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSerializer.swift; path = Sources/SDK/Utils/DataSerializer.swift; sourceTree = "<group>"; };
+		2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowRequest.swift; path = Sources/SDK/Requests/FlowRequest.swift; sourceTree = "<group>"; };
+		361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-umbrella.h"; sourceTree = "<group>"; };
+		3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moltin.xcconfig; sourceTree = "<group>"; };
+		411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prices.swift; path = Sources/SDK/Models/Prices.swift; sourceTree = "<group>"; };
+		44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Sources/SDK/Models/Customer.swift; sourceTree = "<group>"; };
 		489FADA11064A9365039412DFF45BD65 /* Pods-brightcosmeticsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-brightcosmeticsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A4BFE9C64CE9172B689E7F1DC9A9730 /* Pods-brightcosmeticsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-brightcosmeticsTests-umbrella.h"; sourceTree = "<group>"; };
-		4B32BB66E3204FC1E5E4631D73F2A2E6 /* Pagination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagination.swift; path = Sources/SDK/Utils/Pagination.swift; sourceTree = "<group>"; };
-		58EF2EBEFBE33360C13F6ECA99FD6539 /* Info-iOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		5835103A381396A9F72A95B086D2166E /* Timestamps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timestamps.swift; path = Sources/SDK/Models/Timestamps.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5AE5D0ECEFAB5AB31A51CE53E65A1EBF /* MoltinRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinRequest.swift; path = Sources/SDK/Requests/MoltinRequest.swift; sourceTree = "<group>"; };
+		5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Sources/SDK/Models/Address.swift; sourceTree = "<group>"; };
 		5B821AEB0DD73BDBE28745B690294BF3 /* Pods-brightcosmeticsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmeticsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6A3BD7FBE59026A544324D39721406FA /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Sources/SDK/Models/File.swift; sourceTree = "<group>"; };
+		6620A2DF5B65F41EB7F3AD26D078892D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC440473A640885A0C932E82F6EC345 /* Moltin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-prefix.pch"; sourceTree = "<group>"; };
 		6D8EA63E475767FC6E8303E34322552A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70B9C1FC306F31868F563D28EB9996E7 /* Pods-brightcosmetics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-brightcosmetics-dummy.m"; sourceTree = "<group>"; };
-		729895299A36550512B379BA802111F8 /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Sources/SDK/Models/Customer.swift; sourceTree = "<group>"; };
+		70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SDK/Utils/Query.swift; sourceTree = "<group>"; };
 		7304211AFA2BDAB36B74E46CC2BF977B /* Pods-brightcosmetics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-brightcosmetics-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75475DDCEBD3961DFD52143B52DAD8E9 /* Pods-brightcosmeticsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-brightcosmeticsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		754F790F7C89273C8C3286A5198F4572 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Sources/SDK/Models/File.swift; sourceTree = "<group>"; };
+		78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/SDK/Utils/Error.swift; sourceTree = "<group>"; };
+		7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationship.swift; path = Sources/SDK/Models/Relationship.swift; sourceTree = "<group>"; };
 		7F15AEE9E4CA26C82C28CFD514345E7A /* Pods-brightcosmeticsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmeticsTests-frameworks.sh"; sourceTree = "<group>"; };
-		82D61B02423B6FD6B3F3B4E088FAB95E /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Sources/SDK/Models/Address.swift; sourceTree = "<group>"; };
 		83380E859A7D876A2A862DA80A62D60E /* Pods-brightcosmetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmetics.release.xcconfig"; sourceTree = "<group>"; };
-		88B5FB60A4934F84DAF8EB390BBD1D76 /* Moltin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moltin.modulemap; sourceTree = "<group>"; };
+		84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Sources/SDK/Models/Collection.swift; sourceTree = "<group>"; };
+		885700237F78570351C6E53D3F5AD60E /* Moltin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moltin.swift; path = Sources/SDK/Moltin.swift; sourceTree = "<group>"; };
 		88C38B1F0852072436F0E56B8B8F9825 /* Pods-brightcosmetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmetics.debug.xcconfig"; sourceTree = "<group>"; };
-		8A0D66C7CC0C44A58BDD9C27A373DBE0 /* Flow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flow.swift; path = Sources/SDK/Models/Flow.swift; sourceTree = "<group>"; };
+		8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moltin-dummy.m"; sourceTree = "<group>"; };
+		92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/SDK/Utils/Parser.swift; sourceTree = "<group>"; };
 		928AE064CC06EB13A7D6A16AC0B3BDD8 /* Pods-brightcosmeticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmeticsTests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A379F234AC881D32304B9738D1DC323 /* Pods-brightcosmetics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-brightcosmetics.modulemap"; sourceTree = "<group>"; };
 		9AA69B00489210ABC0DD156C0FFE6896 /* Pods-brightcosmeticsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-brightcosmeticsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9CCB1E7647E8CDB8800FB0642C7B7206 /* Pods-brightcosmeticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmeticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CCB6D939D73A741D55B1E9065E3697F /* Moltin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moltin.swift; path = Sources/SDK/Moltin.swift; sourceTree = "<group>"; };
 		9D58DE6B9089554B50FF63C3BCB93C1F /* Pods-brightcosmetics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmetics-resources.sh"; sourceTree = "<group>"; };
 		A1EBD8C41D4E46D5E8E2E66F53088C0D /* Pods_brightcosmeticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_brightcosmeticsTests.framework; path = "Pods-brightcosmeticsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2FBFEB0B58D36C7EA4D8B1E3C81D74F /* Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Sources/SDK/Models/Order.swift; sourceTree = "<group>"; };
 		A42ECEDBEAED88666D5CAA04E8632006 /* Pods-brightcosmetics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-brightcosmetics-umbrella.h"; sourceTree = "<group>"; };
-		A69367C8BCE1165FEB67DFC7D5ED2B99 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Sources/SDK/Models/PaymentMethod.swift; sourceTree = "<group>"; };
 		AC72F88BE13009CA08BAF48BC80F7605 /* Pods-brightcosmeticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brightcosmeticsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD02120B404A7B0DCB80C893BFB07CE0 /* MoltinAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinAuth.swift; path = Sources/SDK/Requests/MoltinAuth.swift; sourceTree = "<group>"; };
-		AD5574964710FD0C211B977AFCB96CD9 /* CartRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartRequest.swift; path = Sources/SDK/Requests/CartRequest.swift; sourceTree = "<group>"; };
-		B1DCD6FCA0E0CE86B19B45EEAF55FFA7 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/SDK/Utils/Error.swift; sourceTree = "<group>"; };
-		B4FB5F3881CDC46B7267AA289A70E44E /* Info-watchOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
-		BC8BBE5E3B1FD6D47485F1497717062F /* URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = Sources/SDK/Utils/URLSession.swift; sourceTree = "<group>"; };
+		B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagination.swift; path = Sources/SDK/Utils/Pagination.swift; sourceTree = "<group>"; };
+		B6E679618E2C169AA06866F951C0B01D /* Brand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = Sources/SDK/Models/Brand.swift; sourceTree = "<group>"; };
+		B78ED9B42543B93DD1CA9E76E0386FBE /* Moltin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moltin.modulemap; sourceTree = "<group>"; };
+		B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = Sources/SDK/Utils/URLSession.swift; sourceTree = "<group>"; };
 		BCB49CCE8AF32C69E1D3C890DEAAA664 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C47D29D72B569C4F9E52B9348E2CB8C6 /* moltin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = moltin.h; path = Sources/moltin.h; sourceTree = "<group>"; };
+		BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Sources/SDK/Utils/DateFormatter.swift; sourceTree = "<group>"; };
+		BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = Sources/SDK/Models/Cart.swift; sourceTree = "<group>"; };
+		C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartRequest.swift; path = Sources/SDK/Requests/CartRequest.swift; sourceTree = "<group>"; };
+		C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
+		CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTP.swift; path = Sources/SDK/Utils/HTTP.swift; sourceTree = "<group>"; };
 		CC477ED8068F698C9EDB355F58DBEB54 /* Pods_brightcosmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_brightcosmetics.framework; path = "Pods-brightcosmetics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15ADE320F0F8AD60DCED339F672867D /* Prices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prices.swift; path = Sources/SDK/Models/Prices.swift; sourceTree = "<group>"; };
-		D473C0B592EEBA5952AB96A5233B3867 /* Moltin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-prefix.pch"; sourceTree = "<group>"; };
-		D6FF7890225A4CB7EE18E515B058C749 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/SDK/Utils/Parser.swift; sourceTree = "<group>"; };
 		D7E8FA3E6FAAC11CA36851026E6FC092 /* Pods-brightcosmetics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmetics-frameworks.sh"; sourceTree = "<group>"; };
-		D806B4387DE25FDC701DDAAD4F8CA4D3 /* CodableExtract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtract.swift; path = Sources/SDK/Utils/CodableExtract.swift; sourceTree = "<group>"; };
-		DCDA24100F6E65210F3065FDBDFEA2D3 /* Info-tvOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
+		DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
+		E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerRequest.swift; path = Sources/SDK/Requests/CustomerRequest.swift; sourceTree = "<group>"; };
 		EC5038642166693A5D99BB3659C61614 /* Pods_brightcosmeticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_brightcosmeticsUITests.framework; path = "Pods-brightcosmeticsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7D847C8AC286ACB19DC0F7F03605FD /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/SDK/Utils/Config.swift; sourceTree = "<group>"; };
 		F01BCA769094022CCD582BAA2BC95D54 /* Pods-brightcosmetics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-brightcosmetics-acknowledgements.plist"; sourceTree = "<group>"; };
-		F726E8E899165F1BDAEB98AA15EACE67 /* DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Sources/SDK/Utils/DateFormatter.swift; sourceTree = "<group>"; };
+		F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sources/SDK/Models/Currency.swift; sourceTree = "<group>"; };
 		F8A6AF3D285BE0D5846D3D8EDC1556AC /* Pods-brightcosmeticsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-brightcosmeticsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F94D3EF02F9E07F239B86598CC89416B /* Pods-brightcosmeticsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-brightcosmeticsTests.modulemap"; sourceTree = "<group>"; };
 		FB58349B8F10D48A39F395A388EDFF15 /* Pods-brightcosmeticsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brightcosmeticsUITests-resources.sh"; sourceTree = "<group>"; };
+		FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = Sources/SDK/Requests/Requests.swift; sourceTree = "<group>"; };
+		FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Sources/SDK/Models/PaymentMethod.swift; sourceTree = "<group>"; };
+		FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinAuth.swift; path = Sources/SDK/Requests/MoltinAuth.swift; sourceTree = "<group>"; };
+		FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Sources/SDK/Models/Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,11 +179,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		783959E351217C4A35DC3C8FEDED26DF /* Frameworks */ = {
+		4DB87559CC3EC76B0894BE498F089A0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B5F89463F819C4E9395DFE9CE98632 /* Foundation.framework in Frameworks */,
+				D94FB6F8478D259B604E0EA2783FFE76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,62 +198,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19D566F07C097FC418B28A61B4DB2FCA /* Moltin */ = {
+		0257BFE6B2A81E53FDA849544AF83265 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82D61B02423B6FD6B3F3B4E088FAB95E /* Address.swift */,
-				0CA696641B19CD74E348BC13EDF50466 /* Brand.swift */,
-				12CEF9B66D01D613FC4B4BF69D166DA9 /* Cart.swift */,
-				AD5574964710FD0C211B977AFCB96CD9 /* CartRequest.swift */,
-				179DA37B7E23C565AB1E2152E06DD473 /* Category.swift */,
-				D806B4387DE25FDC701DDAAD4F8CA4D3 /* CodableExtract.swift */,
-				1F4DA3B836262D574171AF0D629A9427 /* Collection.swift */,
-				EE7D847C8AC286ACB19DC0F7F03605FD /* Config.swift */,
-				29986499F6FF7A17D26C551EA6F86C78 /* Currency.swift */,
-				729895299A36550512B379BA802111F8 /* Customer.swift */,
-				22D83599483A6EC0390CB52B8F6524D8 /* DataSerializer.swift */,
-				F726E8E899165F1BDAEB98AA15EACE67 /* DateFormatter.swift */,
-				B1DCD6FCA0E0CE86B19B45EEAF55FFA7 /* Error.swift */,
-				6A3BD7FBE59026A544324D39721406FA /* File.swift */,
-				8A0D66C7CC0C44A58BDD9C27A373DBE0 /* Flow.swift */,
-				305A0D8BE157266D2C9BF09EF116845F /* FlowRequest.swift */,
-				3FDFA28A17640E6703899DBFFB188F47 /* HTTP.swift */,
-				58EF2EBEFBE33360C13F6ECA99FD6539 /* Info-iOS.plist */,
-				DCDA24100F6E65210F3065FDBDFEA2D3 /* Info-tvOS.plist */,
-				B4FB5F3881CDC46B7267AA289A70E44E /* Info-watchOS.plist */,
-				C47D29D72B569C4F9E52B9348E2CB8C6 /* moltin.h */,
-				9CCB6D939D73A741D55B1E9065E3697F /* Moltin.swift */,
-				AD02120B404A7B0DCB80C893BFB07CE0 /* MoltinAuth.swift */,
-				5AE5D0ECEFAB5AB31A51CE53E65A1EBF /* MoltinRequest.swift */,
-				A2FBFEB0B58D36C7EA4D8B1E3C81D74F /* Order.swift */,
-				4B32BB66E3204FC1E5E4631D73F2A2E6 /* Pagination.swift */,
-				D6FF7890225A4CB7EE18E515B058C749 /* Parser.swift */,
-				A69367C8BCE1165FEB67DFC7D5ED2B99 /* PaymentMethod.swift */,
-				D15ADE320F0F8AD60DCED339F672867D /* Prices.swift */,
-				1B0D88CE84BF4C1B960F70AC8E427BB8 /* Product.swift */,
-				1D841C1D232408998BFC937E0F63F41F /* Query.swift */,
-				1D12DF3335DBC5FD8FFEDA7B3278C7F0 /* Relationship.swift */,
-				0C21C4BA707157E1FC6EB3D09A29FA77 /* Requests.swift */,
-				30F4094934DD1AEBCECE0998834087A2 /* Timestamps.swift */,
-				BC8BBE5E3B1FD6D47485F1497717062F /* URLSession.swift */,
-				1FB9BBF3FC81AB1600D689CF0C56EBAF /* Support Files */,
+				26FFC4A4153E3D6F4FB8AF800501F3EB /* Moltin */,
 			);
-			name = Moltin;
-			path = Moltin;
-			sourceTree = "<group>";
-		};
-		1FB9BBF3FC81AB1600D689CF0C56EBAF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FD86CA5932141BD437546B02E04B055 /* Info.plist */,
-				88B5FB60A4934F84DAF8EB390BBD1D76 /* Moltin.modulemap */,
-				21150F000D2ED8C390553DE0F4B3B770 /* Moltin.xcconfig */,
-				2288DB33D8AA1590859A889310D97373 /* Moltin-dummy.m */,
-				D473C0B592EEBA5952AB96A5233B3867 /* Moltin-prefix.pch */,
-				4525100D17DA4C68A0562E0929277927 /* Moltin-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Moltin";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		22975DD77C6037B80CECDAE3048980CD /* Targets Support Files */ = {
@@ -280,6 +232,51 @@
 			);
 			name = "Pods-brightcosmetics";
 			path = "Target Support Files/Pods-brightcosmetics";
+			sourceTree = "<group>";
+		};
+		26FFC4A4153E3D6F4FB8AF800501F3EB /* Moltin */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */,
+				B6E679618E2C169AA06866F951C0B01D /* Brand.swift */,
+				BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */,
+				C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */,
+				FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */,
+				0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */,
+				84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */,
+				18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */,
+				F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */,
+				44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */,
+				EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */,
+				2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */,
+				BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */,
+				78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */,
+				754F790F7C89273C8C3286A5198F4572 /* File.swift */,
+				021113F865D9F54AABECA9B027F80B49 /* Flow.swift */,
+				2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */,
+				CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */,
+				E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */,
+				DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */,
+				C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */,
+				1AD827B9D5261092624CA60718768355 /* moltin.h */,
+				885700237F78570351C6E53D3F5AD60E /* Moltin.swift */,
+				FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */,
+				0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */,
+				24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */,
+				B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */,
+				92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */,
+				FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */,
+				411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */,
+				0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */,
+				70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */,
+				7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */,
+				FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */,
+				5835103A381396A9F72A95B086D2166E /* Timestamps.swift */,
+				B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */,
+				D22139C13ADEF04A9B65FDA40DC4E96E /* Support Files */,
+			);
+			name = Moltin;
+			path = Moltin;
 			sourceTree = "<group>";
 		};
 		3E93EBA2AA5344A70CB56DF16CF37BB3 /* Pods-brightcosmeticsTests */ = {
@@ -313,7 +310,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B5EAE62AA217ECAB382C3AE74C4B7E43 /* Pods */,
+				0257BFE6B2A81E53FDA849544AF83265 /* Pods */,
 				883C113F6EBB33624736F34EB62D7AC0 /* Products */,
 				22975DD77C6037B80CECDAE3048980CD /* Targets Support Files */,
 			);
@@ -348,20 +345,26 @@
 			path = "Target Support Files/Pods-brightcosmeticsUITests";
 			sourceTree = "<group>";
 		};
-		B5EAE62AA217ECAB382C3AE74C4B7E43 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19D566F07C097FC418B28A61B4DB2FCA /* Moltin */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22139C13ADEF04A9B65FDA40DC4E96E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6620A2DF5B65F41EB7F3AD26D078892D /* Info.plist */,
+				B78ED9B42543B93DD1CA9E76E0386FBE /* Moltin.modulemap */,
+				3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */,
+				8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */,
+				6AC440473A640885A0C932E82F6EC345 /* Moltin-prefix.pch */,
+				361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Moltin";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,20 +378,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		116B25435FA697F69DC446190776C5E6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DC8E7CD859215BF843BD05F54C45329 /* Moltin-umbrella.h in Headers */,
-				BCDD8C4FE74D1740ED73366190DC18DE /* moltin.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		996543CF47C1F3E0E2BE638DB288C139 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F9C93AF08BE4F501F1661CD53F2B22F /* Pods-brightcosmetics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC5379FE9CCAAE995981DFC4F981F3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF43D377C86138B6DD3AEB407E79F3C /* Moltin-umbrella.h in Headers */,
+				89ACB80AAC9B2CFB31196B15C8550CEB /* moltin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,13 +424,13 @@
 			productReference = EC5038642166693A5D99BB3659C61614 /* Pods_brightcosmeticsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D626E8D1C81E896FC471BA4C0718ED4 /* Moltin */ = {
+		5EC093281A3454DF595F93BC1A7C79FF /* Moltin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 231ED849A047B8F6EF77B6BAA02D46CD /* Build configuration list for PBXNativeTarget "Moltin" */;
+			buildConfigurationList = 4DEAA6679C6724699AF0CC9A8AC66F42 /* Build configuration list for PBXNativeTarget "Moltin" */;
 			buildPhases = (
-				19B447201508C40DCEE8A36B59C13AC1 /* Sources */,
-				783959E351217C4A35DC3C8FEDED26DF /* Frameworks */,
-				116B25435FA697F69DC446190776C5E6 /* Headers */,
+				AB4E02C37F8F65C7E0EED8907528FF28 /* Sources */,
+				4DB87559CC3EC76B0894BE498F089A0F /* Frameworks */,
+				9DC5379FE9CCAAE995981DFC4F981F3E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -495,7 +498,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D626E8D1C81E896FC471BA4C0718ED4 /* Moltin */,
+				5EC093281A3454DF595F93BC1A7C79FF /* Moltin */,
 				A01AA2D04C42DEE3A950F3FC2231CB02 /* Pods-brightcosmetics */,
 				B8D388F305307BA10F14E1DB51002C7E /* Pods-brightcosmeticsTests */,
 				10A6EB5875272C588C6D00518D5E9B15 /* Pods-brightcosmeticsUITests */,
@@ -504,53 +507,54 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19B447201508C40DCEE8A36B59C13AC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17EE83941FCAC0C4C1BF6FFFC5718B2C /* Address.swift in Sources */,
-				E0746EC384626077A3B7D323133283C4 /* Brand.swift in Sources */,
-				0127314618EA69BE4A4AE70813EAEE60 /* Cart.swift in Sources */,
-				27B37A2ECD215F450B2CFD752DB236F8 /* CartRequest.swift in Sources */,
-				E2AB0DB9D9309D25969A8E87199B8AC0 /* Category.swift in Sources */,
-				2A76413739DB52C113D80396D8E4DAE8 /* CodableExtract.swift in Sources */,
-				4E16AC76BA8B40FE434371FD01E787B2 /* Collection.swift in Sources */,
-				BD229A1BABF08C897BE1CF044E113681 /* Config.swift in Sources */,
-				095C33237E9722B186FE96605DBA6EB3 /* Currency.swift in Sources */,
-				A21CCDB9BDFD39DAAFDF8E39804D5BF6 /* Customer.swift in Sources */,
-				BC9CC21218756FC1ED8EBE596FEB11A2 /* DataSerializer.swift in Sources */,
-				C13C71BC717273A2AE31D9C4C4D1FB6E /* DateFormatter.swift in Sources */,
-				BA2B8AA3B83D2F82657AF7E7F25757A1 /* Error.swift in Sources */,
-				A7E8EC1E4ACEFA73F85820445DEFB0FC /* File.swift in Sources */,
-				F9FD9FC6964677A7F57D5462805EEA22 /* Flow.swift in Sources */,
-				09A605ADD882C0735C5FC259FA8A070D /* FlowRequest.swift in Sources */,
-				11C33B500623F2ADA46DD6951675159C /* HTTP.swift in Sources */,
-				9DEC9FBF0611E61841474C9FC8A78525 /* Info-iOS.plist in Sources */,
-				8C75E749E5F0DC2A903E638D2A9D2978 /* Info-tvOS.plist in Sources */,
-				1C40D9624FA2AE59F39D36942AC23670 /* Info-watchOS.plist in Sources */,
-				83A06D42A808845B0DBD66A4B3D163A3 /* Moltin-dummy.m in Sources */,
-				5659F2B11E34425AF1DA8E5D8C0DDFE9 /* Moltin.swift in Sources */,
-				70C970C744C6B4E89B85A51A6EC4CA1D /* MoltinAuth.swift in Sources */,
-				B75F9693EF11828419D5C92CDE07865A /* MoltinRequest.swift in Sources */,
-				4A5F19BC460B78A2C59649B496096A85 /* Order.swift in Sources */,
-				5C0D946DC7EB63719DDE192D1E5D0653 /* Pagination.swift in Sources */,
-				8561FDD70C079CE1BA3BB3C1F5C4977F /* Parser.swift in Sources */,
-				6456B6EDDA1D0B413739D85EFF130A28 /* PaymentMethod.swift in Sources */,
-				3BBC2DFB122E4AD8AACB7A9299D34A1F /* Prices.swift in Sources */,
-				85D3DDE07656952327DADB0866995052 /* Product.swift in Sources */,
-				B3A577430E7E0DED105478585B228987 /* Query.swift in Sources */,
-				BB8FEDE3023819DA0E8BC5E41F42D2D2 /* Relationship.swift in Sources */,
-				89CA18B9F84F96970D4EFFEEBEAEFBB2 /* Requests.swift in Sources */,
-				B96C12C910DE22C478D8269ABE4CBF3A /* Timestamps.swift in Sources */,
-				E9BF4072DF79E583B3C3EC9929D0BF62 /* URLSession.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4159BDF373CA21452E7356B4AFD76B24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC852BA5C8C10BD9070B0F47D61A9610 /* Pods-brightcosmetics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4E02C37F8F65C7E0EED8907528FF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE7CB5E7B749A78F77843FD4B6208AE /* Address.swift in Sources */,
+				832AE336889F4F9A12262497B2227845 /* Brand.swift in Sources */,
+				7C0A3897E9B07D9960E57B51116BEDCE /* Cart.swift in Sources */,
+				14842F6F97EB117C91764496450A95E3 /* CartRequest.swift in Sources */,
+				2CDA5CAEC5331DDDF94AE56C48357896 /* Category.swift in Sources */,
+				83CD91CEB12B4C2E7DC0290A1ACF488E /* CodableExtract.swift in Sources */,
+				E6A2D57E8D29E4A5739D1599D5701873 /* Collection.swift in Sources */,
+				74BD7D46B2A165A1FCF819E18AEF466E /* Config.swift in Sources */,
+				E7BE24A1AF39EF56989F6E81D44F3942 /* Currency.swift in Sources */,
+				9B59DD1ABA7971E5E545B1C316078746 /* Customer.swift in Sources */,
+				859BF4E90A58EAC011C866043DFBDFA6 /* CustomerRequest.swift in Sources */,
+				70A7205626B6BDB6E73C29E8655A5626 /* DataSerializer.swift in Sources */,
+				C19628DD8DF9C3E3D64145423556C883 /* DateFormatter.swift in Sources */,
+				C6F753E4E8CE0111EF725B502591BDAC /* Error.swift in Sources */,
+				92E915D82E47789755BA8641E1E4791B /* File.swift in Sources */,
+				973D3377DF1B99983B40DB848C8B1D49 /* Flow.swift in Sources */,
+				97210420AD5CB7FA7EEC91D8122AA510 /* FlowRequest.swift in Sources */,
+				C60A5D25162C905338AE36B30EAA1732 /* HTTP.swift in Sources */,
+				7F70BEEB3910570860C20AEB4D66AB18 /* Info-iOS.plist in Sources */,
+				013B08E352F261980B0501FC24ABE404 /* Info-tvOS.plist in Sources */,
+				4CC555ADEF956FF10D2F337374193F8C /* Info-watchOS.plist in Sources */,
+				9D720212B32EFF920224948604D92475 /* Moltin-dummy.m in Sources */,
+				D5B48AD59B506E7060AA9EF27C2556DA /* Moltin.swift in Sources */,
+				EAF16B0F504F871FB0CF77749A5CAE93 /* MoltinAuth.swift in Sources */,
+				FA332E24E126D40B89C6DE490EDEE025 /* MoltinRequest.swift in Sources */,
+				6FFFE275235DC393CA90FB9D1544E2E2 /* Order.swift in Sources */,
+				E02B1A745DCF49425C30181881D0FF30 /* Pagination.swift in Sources */,
+				99B2F7FD8D487DD7B405E871D7FC9EE4 /* Parser.swift in Sources */,
+				08BDD7F2EB0F0DE280B2D9DC9E2AAAD1 /* PaymentMethod.swift in Sources */,
+				EFD51A210AEED8D9AB57A13BC24BBFDF /* Prices.swift in Sources */,
+				6F12C076E10D5A8DADEB1391F0196B55 /* Product.swift in Sources */,
+				933DE7C3913A043F7344F20EBBB074F3 /* Query.swift in Sources */,
+				C0181C551B0B6C8345648E7894C8D891 /* Relationship.swift in Sources */,
+				616E45882A0C45338E7D343F79E6394D /* Requests.swift in Sources */,
+				DEED68F63E46F9368512B04B44BE7381 /* Timestamps.swift in Sources */,
+				D6ECF500C3C90D0B333A0B0CCB262A6E /* URLSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +586,7 @@
 		2BF00A7453D666D700951F7FA6A82207 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Moltin;
-			target = 6D626E8D1C81E896FC471BA4C0718ED4 /* Moltin */;
+			target = 5EC093281A3454DF595F93BC1A7C79FF /* Moltin */;
 			targetProxy = 577880E0139A20CBC45707E5CF662453 /* PBXContainerItemProxy */;
 		};
 		C474801CAF5A2E92C4214A723599327B /* PBXTargetDependency */ = {
@@ -626,81 +630,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0EC0D1655B2562B20F697953978D513B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21150F000D2ED8C390553DE0F4B3B770 /* Moltin.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
-				PRODUCT_MODULE_NAME = moltin;
-				PRODUCT_NAME = moltin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32140B61654FE7E0ACC957A9DAE84F16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21150F000D2ED8C390553DE0F4B3B770 /* Moltin.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
-				PRODUCT_MODULE_NAME = moltin;
-				PRODUCT_NAME = moltin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -947,6 +876,44 @@
 			};
 			name = Release;
 		};
+		8D15012AF836D0E0A32B519675D04A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
+				PRODUCT_MODULE_NAME = moltin;
+				PRODUCT_NAME = moltin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8F86727A0008ED7AE9399A126934C5C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CCB1E7647E8CDB8800FB0642C7B7206 /* Pods-brightcosmeticsUITests.debug.xcconfig */;
@@ -1024,23 +991,60 @@
 			};
 			name = Release;
 		};
+		E9F840DCB96D6B09BBFD24DE715DFB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
+				PRODUCT_MODULE_NAME = moltin;
+				PRODUCT_NAME = moltin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		231ED849A047B8F6EF77B6BAA02D46CD /* Build configuration list for PBXNativeTarget "Moltin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32140B61654FE7E0ACC957A9DAE84F16 /* Debug */,
-				0EC0D1655B2562B20F697953978D513B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
 				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEAA6679C6724699AF0CC9A8AC66F42 /* Build configuration list for PBXNativeTarget "Moltin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F840DCB96D6B09BBFD24DE715DFB5D /* Debug */,
+				8D15012AF836D0E0A32B519675D04A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

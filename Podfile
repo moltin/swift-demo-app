@@ -6,7 +6,7 @@ target 'brightcosmetics' do
   use_frameworks!
 
   # Pods for brightcosmetics
-  pod 'Moltin', '~> 3.1.0'
+  pod 'Moltin', '~> 3.1.2'
 
 
   target 'brightcosmeticsTests' do
