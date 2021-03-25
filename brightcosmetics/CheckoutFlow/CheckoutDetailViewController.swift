@@ -20,6 +20,9 @@ class CheckoutDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addTapGesture()
+        
         self.headerView.backgroundColor = Colors.buttonColor()
 
         nameField.layer.cornerRadius = 15.0

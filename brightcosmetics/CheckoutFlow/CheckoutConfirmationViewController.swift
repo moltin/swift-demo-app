@@ -40,6 +40,9 @@ class CheckoutConfirmationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addTapGesture()
+        
         self.headerView.backgroundColor = Colors.buttonColor()
 
         self.voucherLabel.isHidden = true

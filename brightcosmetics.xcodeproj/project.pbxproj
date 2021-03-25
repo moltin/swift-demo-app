@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		114EB96F8DAF0859D3EB434E /* Pods_brightcosmeticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C149456B9B37B528BB6B122D /* Pods_brightcosmeticsUITests.framework */; };
 		142F4FA978ED06DE975C5558 /* Pods_brightcosmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22FF8EB29E63ACEC63CA466 /* Pods_brightcosmetics.framework */; };
+		80B14ED0260CB2BC0003B59A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B14ECF260CB2BC0003B59A /* UIViewExtension.swift */; };
 		98D49DF920DC4A3900AD6696 /* ConfirmationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D49DF720DC4A3900AD6696 /* ConfirmationTableViewCell.swift */; };
 		98D49DFA20DC4A3900AD6696 /* ConfirmationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D49DF820DC4A3900AD6696 /* ConfirmationTableViewCell.xib */; };
 		98D49DFD20E1CE4C00AD6696 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D49DFB20E1CE4C00AD6696 /* ReceiptTableViewCell.swift */; };
@@ -60,6 +61,7 @@
 		31FA7F774ED829159270A475 /* Pods-brightcosmeticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsTests/Pods-brightcosmeticsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50EC37DEC0C8F3DB04071ABF /* Pods-brightcosmeticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsTests/Pods-brightcosmeticsTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C9B5249F14FDEAB15FD26C7 /* Pods-brightcosmeticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brightcosmeticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brightcosmeticsUITests/Pods-brightcosmeticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80B14ECF260CB2BC0003B59A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		98D49DF720DC4A3900AD6696 /* ConfirmationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationTableViewCell.swift; sourceTree = "<group>"; };
 		98D49DF820DC4A3900AD6696 /* ConfirmationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmationTableViewCell.xib; sourceTree = "<group>"; };
 		98D49DFB20E1CE4C00AD6696 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		80B14ECE260CB2960003B59A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80B14ECF260CB2BC0003B59A /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		98D594F620D03EFA008E5434 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +174,7 @@
 		98D5950120D03EFA008E5434 /* brightcosmetics */ = {
 			isa = PBXGroup;
 			children = (
+				80B14ECE260CB2960003B59A /* Extensions */,
 				98D5950220D03EFA008E5434 /* AppDelegate.swift */,
 				98D5950420D03EFA008E5434 /* HomeViewController.swift */,
 				98D5953020D049D7008E5434 /* CatalogViewController.swift */,
@@ -460,6 +471,7 @@
 				98E8A1F820D83F30006C7081 /* CheckoutConfirmationViewController.swift in Sources */,
 				98E8A1BA20D44D87006C7081 /* UIImageView.swift in Sources */,
 				98E8A1F420D838AB006C7081 /* CheckoutPaymentViewController.swift in Sources */,
+				80B14ED0260CB2BC0003B59A /* UIViewExtension.swift in Sources */,
 				98E8A1FB20D84123006C7081 /* CartTableViewCell.swift in Sources */,
 				98D49DF920DC4A3900AD6696 /* ConfirmationTableViewCell.swift in Sources */,
 				98E8A1C520D82B81006C7081 /* ProductListViewController.swift in Sources */,
