@@ -19,6 +19,9 @@ class ReceiptViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addTapGesture()
+        
         //TODO: return cartItems and products fetch cartItems
         MoltinManager.instance().getCartItems(cartId: ""){ (cartItems) -> (Void) in
             self.cartItems = cartItems

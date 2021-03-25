@@ -27,6 +27,8 @@ class CartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.addTapGesture()
+        
         checkoutButtonLabel.backgroundColor = Colors.buttonColor()
         checkoutButtonLabel.layer.cornerRadius = 25
         checkoutButtonLabel.setTitleColor(UIColor.white, for: .normal)

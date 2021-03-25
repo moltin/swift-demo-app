@@ -52,6 +52,8 @@ class CheckoutPaymentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.addTapGesture()
+        
         //payment choice
         self.applyPayCheckmark.isHidden = true
         self.creditCardCheckMark.isHidden = false
